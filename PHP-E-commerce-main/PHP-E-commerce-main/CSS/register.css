@@ -1,0 +1,68 @@
+body {
+  background-image: url("baby-girl-her-crib.jpg");
+  font-family: 'Lato', sans-serif;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error{
+  color: red;
+  text-align: left;
+  font-size: 16px;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.register-container {
+  background-color: lightgray;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  animation: slide-up 0.5s ease;
+  opacity: 0.7;
+}
+  
+@keyframes slide-up {
+  0% { transform: translateY(100px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+  
+.header {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: black;
+}
+  
+.input{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+  
+.register-button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+  
+.register-button:hover {
+  background-color: black;
+} 
+

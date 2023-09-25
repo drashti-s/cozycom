@@ -1,0 +1,124 @@
+body {
+    background-image: url("anthony-tran-6YMq73ydADI-unsplash.jpg");
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background-color: hsl(129, 36% ,85%);*/
+}
+  
+.login-container {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    animation: slide-up 0.5s ease;
+    opacity: 0.7;
+}
+  
+@keyframes slide-up {
+    0% { transform: translateY(100px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+  
+.header {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: black;
+}
+  
+.input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+  
+.login-button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+  
+.login-button:hover {
+    background-color: black;
+}
+
+/* Small screens (phones) */
+@media screen and (max-width: 576px) {
+    .login-container {
+        padding: 20px;
+    }
+    .header {
+        font-size: 24px;
+    }
+    .input {
+        font-size: 12px;
+    }
+    .login-button {
+        font-size: 12px;
+    }
+}
+
+/* Medium screens (tablets) */
+@media screen and (min-width: 386px) and (max-width: 991px) {
+    .login-container {
+        max-width: 300px;
+    }
+}
+
+/* Large screens (desktops) */
+@media screen and (min-width: 992px) {
+    .login-container{
+        max-width: 500px;
+    }
+    /* You can add specific styles for large screens here if needed */
+}
+
+/* Extra-large screens (large desktops or wide screens) */
+@media screen and (min-width: 1200px) {
+    /* You can add specific styles for extra-large screens here if needed */
+}
+
+/* Small screens (phones) */
+@media screen and (max-width: 576px) {
+    body {
+        background-size: auto;
+    }
+}
+
+/* Medium screens (tablets) */
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    body {
+        background-size: cover;
+    }
+}
+
+/* Large screens (desktops) */
+@media screen and (min-width: 992px) {
+    body {
+        background-size: cover;
+    }
+}
+
+/* Extra-large screens (large desktops or wide screens) */
+@media screen and (min-width: 1200px) {
+    body {
+        background-size: cover;
+    }
+}
